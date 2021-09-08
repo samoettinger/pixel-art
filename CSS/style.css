@@ -1,0 +1,48 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     border: none;
+}
+
+body header{
+     margin: 0px;
+     padding: 25px 0px;
+     align-items: center;
+}
+
+body header h1{
+     margin: 0px;
+     text-align: center;
+     color: white;
+}
+
+body .tablesize{
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     padding: 10px;
+}
+
+body .container{
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+}
+
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+.line {
+     display: flex;
+}
+
+.pixel{
+     width: 30px;
+     height: 30px;
+     border: 1px solid black;
+}
+
+.tableElement{
+     width: 300px;
+     margin: 0px auto;
+}
